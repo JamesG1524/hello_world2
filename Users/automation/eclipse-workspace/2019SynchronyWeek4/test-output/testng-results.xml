@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[The actual array is [1, 2, 3]]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the actual array with expected value]]>
+    </line>
+    <line>
+      <![CDATA[The actual integer is 10]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the actual integer with expected value]]>
+    </line>
+    <line>
+      <![CDATA[The actual string is Test Reporters And Asserts]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the actual string with expected value]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76" started-at="2019-04-29T13:15:05Z" finished-at="2019-04-29T13:15:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76" started-at="2019-04-29T13:15:05Z" finished-at="2019-04-29T13:15:06Z">
+      <class name="PracticeExercises.ReportersandAsserts">
+        <test-method status="PASS" signature="testArrays()[pri:0, instance:PracticeExercises.ReportersandAsserts@23ceabc1]" name="testArrays" duration-ms="28" started-at="2019-04-29T13:15:06Z" finished-at="2019-04-29T13:15:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The actual array is [1, 2, 3]]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the actual array with expected value]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testArrays -->
+        <test-method status="PASS" signature="testInt()[pri:0, instance:PracticeExercises.ReportersandAsserts@23ceabc1]" name="testInt" duration-ms="0" started-at="2019-04-29T13:15:06Z" finished-at="2019-04-29T13:15:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The actual integer is 10]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the actual integer with expected value]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInt -->
+        <test-method status="PASS" signature="testStrings()[pri:0, instance:PracticeExercises.ReportersandAsserts@23ceabc1]" name="testStrings" duration-ms="0" started-at="2019-04-29T13:15:06Z" finished-at="2019-04-29T13:15:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The actual string is Test Reporters And Asserts]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the actual string with expected value]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testStrings -->
+      </class> <!-- PracticeExercises.ReportersandAsserts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

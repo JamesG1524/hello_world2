@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "FirstTestNGProjectTake2">
+
+<test name= "PracticeGrouping">
+
+<groups>
+
+<run>
+
+<include name= "CAR" />
+
+</run>
+
+</groups>
+
+<classes>
+
+<class name= "PracticeExercises.FirstTestNGGroup" />
+
+</classes>
+
+</test>
+
+</suite>
